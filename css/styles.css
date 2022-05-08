@@ -1,0 +1,22 @@
+body {
+    --scrollbar-width: calc(100vw - 100%);
+    margin: 0;
+}
+
+
+table {
+    /* min-width: 99vw; */
+    width: calc(100vw - var(--scrollbar-width)); 
+    /* display: flex; */
+}
+
+table table {
+    background-color: blue;
+}
+.subFolderHeader {
+    background-color: grey;
+}
+
+
+
+
