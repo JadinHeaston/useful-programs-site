@@ -100,6 +100,7 @@ function formatOutput($givenArray, $subLevel = 0)
     else
     {
 		$foundFolders = []; //Stores what subfolders were found.
+		
         //Iterate through THIS array.
         foreach ($givenArray as $key => $subObject) {
             if (array_key_exists('Relative Path', $subObject))
